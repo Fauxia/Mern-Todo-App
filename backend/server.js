@@ -7,9 +7,11 @@ import cors from "cors";
 
 dotenv.config();
 
-app.use(cors());
+
 
 const app = express();
+
+app.use(cors());
 const __dirname = path.resolve();
 
 app.use(express.json());
